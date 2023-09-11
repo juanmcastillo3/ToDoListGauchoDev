@@ -17,6 +17,13 @@ body {
   background-color: var(--blueElectric);
 }
 
+.logo {
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+
 h1 {
   margin-top: 200px;
   color: var(--white);
@@ -64,7 +71,7 @@ form input[type="submit"]:hover {
   margin: 0 auto;
 }
 
-.task-container{
+.task-container {
   background-color: var(--white);
   display: flex;
   justify-content: space-between;
@@ -76,16 +83,16 @@ form input[type="submit"]:hover {
   color: var(--gray);
 }
 
-.closeBtn{
+.closeBtn {
   width: 15px;
   height: 15px;
 }
 
-.closeBtn:hover{
-  cursor:pointer;
+.closeBtn:hover {
+  cursor: pointer;
 }
 
-#stats{
+#stats {
   margin-top: 25px;
   font-size: 1.3em;
   color: var(--velyLightBlue);
